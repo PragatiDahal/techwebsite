@@ -1,11 +1,13 @@
- 
- import image1 from "../images/pexels-shotbyrain-5109666.jpg"
 
+import image2  from "../assets/ai1.jpg"
 
 export default function Home() {
   return (
     <section>
-      <img className="flex h-auto w-auto overflow-hidden" src={image1} />
-    </section>
+       <div className="flex justify-center">
+        <img className="flex w-screen h-screen" src={"image2"} alt=""/>
+       </div>
+</section>
+
   )
 }
