@@ -19,9 +19,10 @@ export default function Navbar() {
           <div className="flex justify-center items-center content-center text-3xl font-sans px-5 text-white">
                 ANTARIKSHYA
           </div>
-          <button className="flex justify-center items-center rounded-lg border-4 bg-[#023038] h-[50px] w-[150px] border-black pt-4 pl-11 p-4 px-4">
-
-
+          <button className="flex justify-center items-center rounded-lg border-4 bg-[#023038]-100 h-[45px] w-[150px] border-black mt-3 left-11">
+          <div className="flex justify-center items-center text-white text-xl">
+            Build with us
+          </div>
           </button>
         </div>
     </section>
