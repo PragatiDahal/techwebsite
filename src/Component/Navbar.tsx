@@ -1,5 +1,5 @@
 
-import photo1 from "../images/Antarikshya website logo.png";
+import photo1 from "../assets/Antarikshyawebsitelogo.png";
 export default function Navbar() {
   return (
     <section>
