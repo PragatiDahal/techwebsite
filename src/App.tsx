@@ -2,6 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Navbar from "./Component/Navbar";
 import Home from "./Component/Home";
 import Offer from "./Component/Offer";
+import Method from "./Component/Method";
 
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
       <Route path="/" element={<Home />} />
     </Routes>
     <Offer />
+    <Method />
     </BrowserRouter>
     </>
   )
