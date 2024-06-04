@@ -3,6 +3,7 @@ import Navbar from "./Component/Navbar";
 import Home from "./Component/Home";
 import Offer from "./Component/Offer";
 import Method from "./Component/Method";
+import Completed from "./Component/Completed";
 
 
 export default function App() {
@@ -15,6 +16,7 @@ export default function App() {
     </Routes>
     <Offer />
     <Method />
+    <Completed />
     </BrowserRouter>
     </>
   )
