@@ -8,6 +8,8 @@ import Test from "./Component/Homepages/Test";
 import Aboutus from "./Component/Homepages/Aboutus"
 import Team from './Component/Homepages/Team';
 import Testimonials from './Component/Homepages/Testimonials';
+import Newsletter from './Component/Homepages/Newsletter';
+import Blog from "./Component/Homepages/Blog";
 
 export default function App() {
   return (
@@ -24,6 +26,8 @@ export default function App() {
     <Aboutus />
     <Team />
     <Testimonials />
+    <Newsletter />
+    <Blog/>
     </BrowserRouter>
     </>
   )

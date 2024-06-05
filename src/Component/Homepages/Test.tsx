@@ -6,7 +6,7 @@ export default function Test() {
   return (
     <>
     <section>
-    <div className="bg-[#046F79]/[0.5] mt-10 h-[308px] w-full mb-10 flex flex-col md:flex-row">
+    <div className="bg-[#046F79]/[0.20] mt-10 h-[308px] w-full mb-10 flex flex-col md:flex-row">
     <div className="flex flex-wrap justify-center items-center w-full md:w-1/4 p-4 md:p-2">
        <img className="h-[70px] w-[70px]" src={image3} />
        <p className="text-4xl text-[#023038] font-bold px-4 font-poppins text-center">
