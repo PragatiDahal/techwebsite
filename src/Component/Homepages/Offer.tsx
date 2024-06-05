@@ -1,9 +1,9 @@
-import image1 from "../assets/astronut.png";
-import image2 from "../assets/Rectangle.png";
-import image3 from "../assets/Gas.png";
-import image4 from "../assets/GoogleCode.png";
-import image5 from "../assets/LaptopMetrics.png";
-import image6 from "../assets/Services.png";
+import image1 from "../../assets/astronut.png";
+import image2 from "../../assets/Rectangle.png";
+import image3 from "../../assets/Gas.png";
+import image4 from "../../assets/GoogleCode.png";
+import image5 from "../../assets/LaptopMetrics.png";
+import image6 from "../../assets/Services.png";
 
 export default function Offer() {
   return (

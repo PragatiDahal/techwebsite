@@ -1,4 +1,4 @@
-import image from "../assets/ai1.jpg";
+import image from "../../assets/ai1.jpg";
 
 export default function Home() {
   return (

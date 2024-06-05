@@ -4,7 +4,10 @@ import Home from "./Component/Homepages/Home";
 import Offer from "./Component/Homepages/Offer";
 import Method from "./Component/Homepages/Method";
 import Completed from "./Component/Homepages/Completed";
-
+import Test from "./Component/Homepages/Test";
+import Aboutus from "./Component/Homepages/Aboutus"
+import Team from './Component/Homepages/Team';
+import Testimonials from './Component/Homepages/Testimonials';
 
 export default function App() {
   return (
@@ -17,6 +20,10 @@ export default function App() {
     <Offer />
     <Method />
     <Completed />
+    <Test />
+    <Aboutus />
+    <Team />
+    <Testimonials />
     </BrowserRouter>
     </>
   )

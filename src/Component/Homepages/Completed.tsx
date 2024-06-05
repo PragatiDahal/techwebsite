@@ -1,5 +1,5 @@
-import image from "../assets/rockets.jpg"
-import image1 from "../assets/travel.jpg"
+import image from "../../assets/rockets.jpg"
+import image1 from "../../assets/travel.jpg"
 interface CardProps {
   heading: string;
   description: string;

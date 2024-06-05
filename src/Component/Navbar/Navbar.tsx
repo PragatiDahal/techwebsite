@@ -1,5 +1,5 @@
-import photo2 from "../assets/Menu.png";
-import photo1 from "../assets/Antarikshyawebsitelogo.png";
+import photo2 from "../../assets/Menu.png";
+import photo1 from "../../assets/Antarikshyawebsitelogo.png";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
