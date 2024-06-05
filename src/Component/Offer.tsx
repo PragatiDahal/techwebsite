@@ -7,7 +7,7 @@ import image6 from "../assets/Services.png";
 
 export default function Offer() {
   return (
-    <section className="bg-[#046F79]/[0.5] mt-10">
+    <section className="bg-[#f5f5f5] mt-10">
         <div className=" flex text-4xl font-sans font-bold text-[#023038] justify-center items-center pt-11 mt-10">What we offer</div>
 {/* for grid */}
     <div className=" flex flex-row flex-wrap justify-center items-start mx-auto gap-8 md:gap-8 mt-10 pt-11">
