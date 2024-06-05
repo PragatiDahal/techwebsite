@@ -1,9 +1,9 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Navbar from "./Component/Navbar";
-import Home from "./Component/Home";
-import Offer from "./Component/Offer";
-import Method from "./Component/Method";
-import Completed from "./Component/Completed";
+import Navbar from "./Component/Navbar/Navbar";
+import Home from "./Component/Homepages/Home";
+import Offer from "./Component/Homepages/Offer";
+import Method from "./Component/Homepages/Method";
+import Completed from "./Component/Homepages/Completed";
 
 
 export default function App() {
