@@ -1,6 +1,8 @@
 
-import image1 from "../../assets/mission.jpg"
-import image2 from "../../assets/vision.jpg"
+import photo1 from "../../assets/mission.jpg"
+import photo2 from "../../assets/vision.jpg"
+import Offer from "../../Component/Homepages/Offer"
+
 export default function Explore() {
   return (
     <>
@@ -22,15 +24,15 @@ export default function Explore() {
     <div className="md:w-1/2 order-1 md:order-2">
       <img
         className="w-full object-contain h-48 md:h-auto md:w-full"
-        src={image1}
+        src={photo1}
         alt=""
       />
     </div>
   </div>
   
-  <div className="flex flex-col md:flex-row max-w-[1000px] mx-auto bg-[#046F79]/[0.20] hover:bg-[#023038] duration-500 ease-in-out rounded-xl py-10 px-4 md:px-8 shadow-md overflow-hidden mt-10 mb-10">
+  <div className="flex flex-col md:flex-row max-w-[1000px] mx-auto bg-[#046F79]/[0.20] hover:bg-[#023038] duration-500 ease-in-out rounded-xl py-10 px-4 md:px-8 shadow-md overflow-hidden mt-10 mb-10 pb-10">
     <div className="md:w-1/2 order-2 md:order-1 p-4">
-      <div className="text-3xl font-sans font-bold text-[#023038] hover:text-white pt-8">Vision</div>
+      <div className="text-3xl font-sans font-bold text-[#023038] hover:text-white pt-8 ">Vision</div>
       <p className="mt-2 text-xl text-[#023038] hover:text-white text-justify px-5">
         Our vision is to be the global leader in technology and engineering, setting new standards for innovation, quality, and sustainability. We aspire to create a world where technology seamlessly integrates with everyday life, driving positive change and making the impossible possible. Through continuous learning, collaboration, and a relentless pursuit of excellence, we aim to shape the future and leave a lasting legacy of progress and prosperity.
       </p>
@@ -38,11 +40,15 @@ export default function Explore() {
     <div className="md:w-1/2 order-1 md:order-2">
       <img
         className="w-full object-contain h-48 md:h-auto md:w-full"
-        src={image2}
+        src={photo2}
         alt=""
       />
     </div>
   </div>
+</section>
+
+<section>
+  <Offer/>
 </section>
 
     </>
