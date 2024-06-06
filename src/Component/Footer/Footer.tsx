@@ -110,7 +110,7 @@ export default function Footer() {
               <img className="w-[30px] h-[30px]" src={image5}/>
               New Baneshwor , Kathmandu
             </p>
-            <p className="mb-4 flex items-center text-xljustify-center md:justify-start">
+            <p className="mb-4 flex items-center text-xl justify-center md:justify-start">
             <img className="w-[30px] h-[30px]" src={image6}/>
               antarikshya@gmail.com
             </p>

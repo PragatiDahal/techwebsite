@@ -24,11 +24,11 @@ export default function Aboutus() {
       >
         Sky is never the Limit
       </h2>
-      <p className="mt-2 text-xl text-[#023038] hover:text-black">
+      <p className="mt-2 text-xl text-[#023038] hover:text-black text-justify">
       At Antarikshya we are dedicated to transforming innovative ideas into reality through advanced technology and engineering excellence. Specializing in custom software development, mechanical design, web development, and SEO optimization, we deliver high-quality, sustainable solutions tailored to your business needs. Our expert team combines technical proficiency with creative problem-solving to drive success and shape the future. Join us on a journey of innovation and growth. At Antarikshya, we believe in fostering long-term partnerships, providing ongoing support and continuously seeking ways to enhance our clients' growth and success. Join us on a journey of innovation and transformation, and let's build a brighter future together.
       </p>
       <br/>
-      <p className="mt-2 text-xl text-[#023038] hover:text-black">
+      <p className="mt-2 text-xl text-[#023038] hover:text-black text-justify">
       At Antarikshya we are dedicated to transforming innovative ideas into reality through advanced technology and engineering excellence. Specializing in custom software development, mechanical design, web development, and SEO optimization, we deliver high-quality, sustainable solutions tailored to your business needs. Our expert team combines technical proficiency with creative problem-solving to drive success and shape the future. Join us on a journey of innovation and growth. At Antarikshya, we believe in fostering long-term partnerships, providing ongoing support and continuously seeking ways to enhance our clients' growth and success. Join us on a journey of innovation and transformation, and let's build a brighter future together.
       </p>
     </div>
