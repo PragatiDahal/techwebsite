@@ -12,7 +12,7 @@ export default function Footer() {
       className="bg-[#023038] text-center text-slate-100 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
       <div
         className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
-        <div className="mr-12 hidden lg:block">
+        <div className="mr-12 hidden text-2xl lg:block">
           <span>Get connected with us on social networks:</span>
         </div>
         {/* <!-- Social network icons container --> */}
@@ -38,41 +38,41 @@ export default function Footer() {
           {/* <!-- TW Elements section --> */}
           <div className="">
             <h6
-              className="mb-4 flex items-center justify-center font-poppins font-bold uppercase md:justify-start">
+              className="mb-4 flex items-center text-2xl justify-center font-poppins font-bold uppercase md:justify-start">
              Antarikshya
             </h6>
-            <p>
+            <p className="text-xl">
             Sky is never the Limit.
             </p>
           </div>
           {/* <!-- Products section --> */}
           <div className="">
             <h6
-              className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              className="mb-4 flex justify-center text-2xl font-semibold uppercase md:justify-start">
               Main 
             </h6>
             <p className="mb-4">
               {/* <Link to="/Blog"> */}
-              <button className="text-slate-100 dark:text-neutral-200"
+              <button className="text-slate-100 text-xl dark:text-neutral-200"
               >Team</button>
               {/* </Link> */}
             </p>
             <p className="mb-4">
             {/* <Link to="/Contact"> */}
-              <button className="text-slate-100 dark:text-neutral-200"
+              <button className="text-slate-100 text-xl dark:text-neutral-200"
               >Testimonials</button>
               {/* </Link> */}
             </p>
             
             <p className="mb-4">
             {/* <Link to="/About"> */}
-              <button className="text-slate-100 dark:text-neutral-200"
+              <button className="text-slate-100 text-xl dark:text-neutral-200"
               >Blog</button>
               {/* </Link> */}
             </p>
             <p>
               {/* <Link to="/Gallery"> */}
-              <button className="text-slate-100 dark:text-neutral-200"
+              <button className="text-slate-100 text-xl dark:text-neutral-200"
               >Gallery</button>
               {/* </Link> */}
             </p>
@@ -80,42 +80,42 @@ export default function Footer() {
           {/* <!-- Useful links section --> */}
           <div className="">
             <h6
-              className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              className="mb-4 flex justify-center text-2xl font-semibold uppercase md:justify-start">
               Quick links
             </h6>
             <p className="mb-4">
-              <a href='/home' className="text-slate-100 dark:text-neutral-200"
+              <a href='/home' className="text-slate-100 text-xl dark:text-neutral-200"
               >Home</a>
             </p>
             <p className="mb-4">
-              <a href='/about' className="text-slate-100 dark:text-neutral-200"
+              <a href='/about' className="text-slate-100 text-xl dark:text-neutral-200"
               >Explore</a>
             </p>
             <p className="mb-4">
-              <a href='service' className="text-slate-100 dark:text-neutral-200"
+              <a href='service' className="text-slate-100 text-xl dark:text-neutral-200"
               >Projects</a>
             </p>
             <p>
-              <a href='/course' className="text-slate-100 dark:text-neutral-200"
+              <a href='/course' className="text-slate-100 text-xl dark:text-neutral-200"
               >About</a>
             </p>
           </div>
           {/* <!-- Contact section --> */}
           <div>
             <h6
-              className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              className="mb-4 flex justify-center text-2xl font-semibold uppercase md:justify-start">
               Get in touch with us
             </h6>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
-              <img src={image5}/>
+            <p className="mb-4 flex items-centertext-xl justify-center md:justify-start">
+              <img className="w-[30px] h-[30px]" src={image5}/>
               New Baneshwor , Kathmandu
             </p>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
-            <img src={image6}/>
+            <p className="mb-4 flex items-center text-xljustify-center md:justify-start">
+            <img className="w-[30px] h-[30px]" src={image6}/>
               antarikshya@gmail.com
             </p>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
-            <img src={image7}/>
+            <p className="mb-4 flex items-center text-xl justify-center md:justify-start">
+            <img className="w-[30px] h-[30px]" src={image7}/>
               9806254380
             </p>
           </div>
@@ -126,9 +126,9 @@ export default function Footer() {
       <div className="bg-[#046F79]/[0.5] p-6 text-center dark:bg-neutral-700">
         <span>© 2024 Copyright:</span>
         <a
-          className="font-semibold text-slate-100 dark:text-neutral-400"
+          className="font-semibold  text-slate-100 dark:text-neutral-400"
           href="#"
-        >Runway 02</a>
+        >Antarikshya</a>
       </div>
     </footer>
   );

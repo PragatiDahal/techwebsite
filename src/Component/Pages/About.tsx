@@ -2,6 +2,6 @@
 
 export default function About() {
   return (
-    <div className="bg-cyan-900 text-white">About</div>
+    <div className="bg-red-600 text-white">About</div>
   )
 }
