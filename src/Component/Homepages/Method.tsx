@@ -4,8 +4,8 @@ export default function Method() {
 
         return (
           <>
-           <section className="bg-[#046F79]/[0.20] mt-10 ">
-  <div className="flex text-4xl font-bold font-sans text-[#023038] justify-center items-center pt-11 mt-10">
+           <section className="bg-[#046F79]/[0.20] mt-10 pb-10 ">
+  <div className="flex text-4xl font-bold font-sans text-[#023038] justify-center items-center pt-11 mt-10 pb-10">
     We use 4D Methodology
   </div>
   <div className="relative flex flex-col md:flex-row rounded-full mx-auto bg-[#D9D9D9] border-8 border-[#023038]/[0.78] h-auto w-[90%] md:w-[500px] mt-10 mb-10 pb-10">

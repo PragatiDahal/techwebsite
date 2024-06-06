@@ -5,7 +5,7 @@ import image3 from "../../assets/VR.jpg"
 export default function Blog() {
   return (
     <>
-    <section className="bg-[#046F79]/[0.20] mt-10">
+    <section className="bg-[#046F79]/[0.20] mt-10 mb-10">
     <div className="flex justify-center py-8">
         <h1 className="text-4xl font-bold text-[#023038]"> From the Blog</h1>
       </div>

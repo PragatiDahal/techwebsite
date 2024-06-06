@@ -16,16 +16,16 @@ export default function Navbar() {
     <>
       <nav className="flex bg-[#023038] w-full h-16 text-bold text-white font-'century gothic' items-center justify-between px-8">
         <div className="flex space-x-5 items-center">
-          <Link to="/" className="text-2xl text-white font-sans font-bold hidden md:block" onClick={closeMenu}>
+          <Link to="/" className="text-2xl text-white font-sans  hidden md:block" onClick={closeMenu}>
             HOME
           </Link>
-          <Link to="/Explore" className="text-2xl text-white font-sans font-bold hidden md:block" onClick={closeMenu}>
+          <Link to="/Explore" className="text-2xl text-white font-sans  hidden md:block" onClick={closeMenu}>
             EXPLORE
           </Link>
-          <Link to="/Project" className="text-2xl text-white font-sans font-bold hidden md:block" onClick={closeMenu}>
+          <Link to="/Project" className="text-2xl text-white font-sans  hidden md:block" onClick={closeMenu}>
             PROJECTS
           </Link>
-          <Link to="/About" className="text-2xl text-white font-sans font-bold hidden md:block" onClick={closeMenu}>
+          <Link to="/About" className="text-2xl text-white font-sans  hidden md:block" onClick={closeMenu}>
             ABOUT
           </Link>
         </div>

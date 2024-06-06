@@ -1,7 +1,16 @@
 import image from "../../assets/ai1.jpg";
-
+import Offer from "../Homepages/Offer";
+import Method from "../Homepages/Method";
+import Completed from "../Homepages/Completed";
+import Test from "../Homepages/Test";
+import Aboutus from "../Homepages/Aboutus";
+import Team from "../Homepages/Team";
+import Testimonials from "../Homepages/Testimonials";
+import Newsletter from "../Homepages/Newsletter";
+import Blog from "../Homepages/Blog";
 export default function Home() {
   return (
+    <>
    <section className="relative w-screen h-screen">
          <img className="w-full h-full object-cover" src={image} alt="homepicture" />
          <div className="absolute top-0 left-0 w-full h-full bg-[#023038]/[0.71] justify-center items-center">
@@ -20,5 +29,42 @@ export default function Home() {
          </div>
           </div>
    </section>
+
+   <section>
+    <Offer />
+   </section>
+
+   <section>
+    <Method />
+   </section>
+
+   <section>
+    <Completed/>
+   </section>
+
+   <section>
+    <Test/>
+   </section>
+
+   <section>
+    <Aboutus/>
+   </section>
+
+   <section>
+    <Team/>
+   </section>
+
+   <section>
+    <Testimonials/>
+   </section>
+
+   <section>
+    <Newsletter/>
+   </section>
+
+   <section>
+    <Blog/>
+   </section>
+   </>
   )
 }
