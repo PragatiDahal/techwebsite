@@ -10,7 +10,7 @@ import Team from "./Component/Homepages/Team";
 import Testimonials from "./Component/Homepages/Testimonials";
 import Newsletter from "./Component/Homepages/Newsletter";
 import Blog from "./Component/Homepages/Blog";
-import Footer from "./Component/Footer/Footer";
+import Footer from "./Component/Footer/Footer"
 import Explore from "./Component/Pages/Explore";
 export default function App() {
   return (
