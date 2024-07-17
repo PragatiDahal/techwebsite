@@ -1,5 +1,7 @@
 import image from "../../assets/rockets.jpg"
 import image1 from "../../assets/travel.jpg"
+import {motion} from "framer-motion";
+
 interface CardProps {
   heading: string;
   description: string;
@@ -41,7 +43,8 @@ export default function Completed() {
         <div className="flex text-4xl font-bold font-sans text-[#023038] justify-center items-center pt-11 mt-10">
           Projects we have completed
         </div>
-        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-3 sm:p-8">
+        <motion.div animate={{ x: [null, 200, 0] }}
+         className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 p-3 sm:p-8">
           <Cards
             className="bg-[#046F79]/[0.20]"
             heading="Project ABC"
@@ -78,7 +81,7 @@ export default function Completed() {
             description="Our Travel Project is an ambitious initiative designed to revolutionize the way people experience travel. Combining cutting-edge technology with innovative planning and sustainable practices, this project aims to create unforgettable travel experiences while minimizing environmental impact and maximizing convenience and enjoyment for travelers. "
             thumbnailSrc={image1} 
           />
-        </div>
+        </motion.div>
       </section>
     </>
   );
