@@ -1,7 +1,6 @@
 import image1 from "../../assets/cloud.webp"
 import image2 from "../../assets/robot2.jpg"
-import image3 from "../../assets/VR.jpg"
-
+import image3 from "../../assets/VR.jpg" 
 export default function Blog() {
   return (
     <>
